@@ -2,9 +2,9 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
-  myFont.loadFont("dummyFont.ttf", 64, true, true);
-  
-  sampleString = "あいうえお";
+  myFont.loadFont("iAWriterDuospace-Bold.ttf", 40, true, true);
+    ofSetFrameRate(30);
+  sampleString = "SpyWarez Gadtget";
   
   p1 = ofPoint(100, 200);
   p2 = ofPoint(200, 300);
